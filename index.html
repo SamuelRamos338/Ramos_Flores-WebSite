@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Pagina inicial</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-brands fa-pagelines">RamosFlores</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Escolha sua planta aqui!
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Plantas perfeitas para
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    A <b>Ramos Flores</b> é especializada em plantas,
+                     frutíferas e projetos de jardins. Oferecemos serviços personalizados
+                      de paisagismo, criando ambientes únicos com plantas, terra, pedras 
+                      e outros elementos naturais.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        ver plantas 
+                    </a>
+
+                    <a href="tel:+79998258802" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (79) 9 9825-8802
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="/src/img/planta.png" alt="Imagem de rawpixel.com no Freepik">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Catálogo</h2>
+            <h3 class="section-subtitle">Nossas plantas especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/dish.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Rosa Mide
+                    </h3>
+
+                    <span class="dish-description">
+                        A Rosa Mide é ideal para jardins ensolarados,Garanta a sua e adicione cores vibrante ao seu espaço!
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(74+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$12,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <video id="video_testimonials" autoplay loop muted width="640" height="560">
+                <source src="src/video/video_rodape.mp4" type="video/mp4">
+            </video>
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <div class="feedback-content">
+                            <p>
+                                <b>Marcos Pereira</b>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Fiquei impressionado com a variedade de plantas que encontrei nesta loja,
+                                especialmente as rosas do deserto! Comprei algumas e elas chegaram perfeitas, 
+                                com uma cor vibrante e um cuidado incrível. Também comprei o substrato recomendado
+                                 para elas e estou vendo resultados incríveis no meu jardim. Muito satisfeito com a
+                                  qualidade dos produtos, com certeza continuarei comprando aqui!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+
+                        <div class="feedback-content">
+                            <p>
+                                <b>Ana Costa</b>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Comprei diversas plantas para meu jardim e fiquei impressionada com a variedade e qualidade. Cada planta 
+                                veio bem cuidada e cheia de vida. O site é bem organizado e fácil de usar, e o prazo de entrega
+                                foi cumprido direitinho. A empresa tem realmente um compromisso com o bem-estar das plantas, e isso é algo 
+                                que me conquistou. Super recomendo!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 Samuel Ramos
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
