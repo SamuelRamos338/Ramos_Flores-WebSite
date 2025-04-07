@@ -39,24 +39,6 @@ O site apresenta:
 
 ---
 
-## 📂 Estrutura de Arquivos
-Aqui está o conteúdo formatado no estilo de um arquivo `README.md`:
-
-Trabalho/
-├── index.html
-├── src/
-│   ├── styles/
-│   │   ├── styles.css
-│   │   ├── footer.css
-│   ├── images/
-│   │   ├── dish.png
-│   │   ├── wave.svg
-│   ├── video/
-│   │   ├── video_rodape.mp4
-│   ├── javascript/
-│       ├── script.js
----
-
 ## 🛠️ Status do Projeto
 
 Este projeto está em **desenvolvimento** e novas funcionalidades serão adicionadas em breve.
@@ -70,5 +52,7 @@ Entre em contato:
 - **Instagram**: [@ramosflores](https://www.instagram.com/ramosflores)
 
 ---
+## 📝 Licença
+Este projeto foi desenvolvido por Samuel Ramos e está disponível para uso pessoal e educacional. Sinta-se à vontade para contribuir ou adaptar o código conforme necessário.
 
 Agradecemos por visitar o **Ramos Flores**! 🌸
