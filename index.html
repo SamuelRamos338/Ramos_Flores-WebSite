@@ -206,6 +206,21 @@
                 </button>
             </div>
         </section>
+        <button id="admin-btn" style="display: none;">Gerenciar Cards</button>
+
+<script>
+  // Suponha que só você tenha acesso localmente como admin por enquanto
+  const isAdmin = true;
+
+  if (isAdmin) {
+    const btn = document.getElementById('admin-btn');
+    btn.style.display = 'block';
+    btn.onclick = () => {
+      window.location.href = 'admin-panel.html';
+    };
+  }
+</script>
+
     </main>
 
     <footer>
